@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.grid{
+    background-color: grey;
+    height: 8rem;
+    width: 8rem;
+    color: white;
+    margin: 0;
+    
+}
+
+@media (max-width: 700px){
+    .parent{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 0.2rem;
+        column-gap: 0.2rem;
+    }
+    
+    .grid{
+        background-color: grey;
+        height: 4rem;
+        width: 4rem;
+        color: white;
+        margin: 0;
+        
+    }
+}
