@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five-star rating</title>
+    <link rel="stylesheet" href="./Q72(1).css">
+</head>
+<body>
+    <div class="star-wrapper">
+        <input type="radio" name="star" class="star5"><label for="star5">
+        </label>
+        <input type="radio" name="star" class="star4"><label for="star4">
+            
+        </label>
+        <input type="radio" name="star" class="star3"><label for="star3">
+            
+        </label>
+        <input type="radio" name="star" class="star2"><label for="star2">
+            
+        </label>
+        <input type="radio" name="star" class="star1"><label for="star1">
+            
+        </label>
+    </div>
+</body>
+</html>
