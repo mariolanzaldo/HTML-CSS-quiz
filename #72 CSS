@@ -1,0 +1,52 @@
+.star-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.star-wrapper input{
+    /*display: none;*/
+    width:  10px;
+    height: 10px;
+    opacity: 1;
+}
+
+.star-wrapper label{
+    display: inline-block;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://i.stack.imgur.com/cEQfe.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 30px -80px;
+}
+
+
+.star5 ~ label:hover,
+.star5 + label:hover ~ label,
+.star4 + label:hover ~ label,
+.star3 + label:hover ~ label,
+.star2 + label:hover ~ label,
+.star1 + label:hover ~ label,
+.star1 ~ label:hover
+{
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 30px 20px;
+    transition: 1s ease-in-out .5s;
+}       
+
+.star5:checked ~ label,
+.star4:checked ~ label,
+.star3:checked ~ label,
+.star2:checked ~ label,
+.star1:checked ~ label {
+        background-size: 350px;
+        background-repeat: no-repeat;
+        background-position: 30px 20px;
+}
