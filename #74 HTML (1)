@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="./Q74.css">
+</head>
+<body>
+   <header class="header">
+       <h1>Header with navigation</h1>
+   </header> 
+   <nav class="topnav">
+    <a href="#navigation" class="active">Navigation</a>
+   </nav>
+   <section class="row">
+    <article class="content1">
+        <p class="text">Content 1</p>
+    </article> 
+    <article class="content2">
+        <p class="text">Content 2</p>
+    </article>   
+    <article class="side">
+        <p class="text">Side</p>
+    </article> 
+   </section>
+   <section class="row">
+       <article class="footer">
+           <footer>
+            <p>Footer</p>
+           </footer>
+       </article>
+   </section>
+</body>
+</html>
