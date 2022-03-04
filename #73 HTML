@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="./Q73(1).css">
+</head>
+<body>
+    <div id='carousel'>
+        <ul>
+            <li>
+                <div class="text-slider-container">
+                    Slide1
+                </div>
+            </li>
+            <li>
+                <div class="text-slider-container">
+                    Slide2
+                </div>
+            </li>
+            <li>
+                <div class="text-slider-container">
+                    Slide3
+                </div>
+            </li>
+        </ul>
+      </div>
+      
+</body>
+</html>
