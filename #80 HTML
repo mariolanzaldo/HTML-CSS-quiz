@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divs</title>
+    <link rel="stylesheet" href="./Q80.css">
+</head>
+<body>
+    <div class='parent'>
+        <div class='child'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit expedita magni alias nulla porro aliquam, ex at exercitationem consequuntur fuga quia sed recusandae praesentium et vitae voluptate cumque commodi magnam.</p></div>
+        <div class='child'><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, sit voluptatem repellat quia incidunt asperiores impedit nobis, in odit earum similique rerum excepturi vitae. Provident quidem asperiores qui rerum quo.</p></div>
+        <div class='child'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex corporis et exercitationem ullam earum architecto cum reprehenderit deleniti tenetur. Vero maiores delectus esse quia tempora saepe rerum dicta repellat vitae?</p></div>
+      </div>
+</body>
+</html>
