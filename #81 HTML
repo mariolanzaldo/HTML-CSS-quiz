@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elements</title>
+    <link rel="stylesheet" href="./Q81.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="child"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugit, praesentium, iure veritatis et repellat impedit ducimus dolore id dicta nisi omnis quod autem pariatur ea labore quas facere quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus repellat voluptatibus quisquam aliquid temporibus dolore rerum quidem excepturi officiis? Quibusdam, sit. Accusantium adipisci excepturi commodi aut dolor, sed illo quam?</p></div>
+        <div class="child"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus incidunt ex porro ut, nihil facere voluptas unde quasi dicta maxime. Deleniti esse eveniet cumque veritatis doloribus corrupti laborum magni. Nesciunt! lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque blanditiis provident porro ratione architecto, accusantium quidem veniam minus nemo nulla repellendus quasi ducimus ipsum numquam odit adipisci soluta sapiente voluptate?</p></div>
+    </div>
+</body>
+</html>
