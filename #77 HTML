@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Navigation Bar</title>
+    <link rel="stylesheet" href="./Q77(d).css">
+    <script src="https://kit.fontawesome.com/40aee70610.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+<!----Left bar---------->
+<div class="na">
+    <label for="leftbar">
+        <input type="radio" name="top" class="leftbar">
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i>Profile +</a>
+                <ul>
+                    <li><a href="#">Customize</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fa-solid fa-address-card"></i>About</a></li>
+            <li><a href="#"><i class="fa-solid fa-diagram-project"></i>Project +</a>
+                <ul>
+                    <li><a href="#">CSS/HTML +</a><ul>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">HTML</a></li>
+                    </ul></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fa-solid fa-location-pin"></i>Location</a></li>
+        </ul>
+    </label>
+</div>
+
+<!----Top bar---------->
+<div class="navbar">
+    <label for="topbar">
+        <input type="radio" name="top" class="topbar">
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i>Profile +</a>
+                <ul>
+                    <li><a href="#">Customize</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fa-solid fa-address-card"></i>About</a></li>
+            <li><a href="#"><i class="fa-solid fa-diagram-project"></i>Project +</a>
+                <ul>
+                    <li><a href="#">CSS/HTML +</a><ul>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">HTML</a></li>
+                    </ul></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fa-solid fa-location-pin"></i>Location</a></li>
+        </ul>
+    </label>
+</div>
+<!----Right bar---------->
+<div class="nav">
+    <label for="rightbar">
+        <input type="radio" name="top" class="rightbar">
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i>Profile +</a>
+                <ul>
+                    <li><a href="#">Customize</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fa-solid fa-address-card"></i>About</a></li>
+            <li><a href="#"><i class="fa-solid fa-diagram-project"></i>Project +</a>
+                <ul>
+                    <li><a href="#">CSS/HTML +</a><ul>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">HTML</a></li>
+                    </ul></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fa-solid fa-location-pin"></i>Location</a></li>
+        </ul>
+    </label>
+</div>
+</header>
+</body>
+</html>
