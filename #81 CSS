@@ -1,0 +1,15 @@
+.parent {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+
+  }
+  .child {
+    width: 50%;
+    border: 1px solid red;
+    padding: 2rem 2rem;
+    overflow: hidden;
+  }
