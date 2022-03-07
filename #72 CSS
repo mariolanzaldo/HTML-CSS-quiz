@@ -9,14 +9,16 @@
 }
 
 .star-wrapper input{
-    /*display: none;*/
     width:  10px;
     height: 10px;
-    opacity: 1;
+    border: 50px;
+    opacity: 0;
+    transform: translate(-50px, 50px) scale(11);
 }
 
 .star-wrapper label{
-    display: inline-block;
+    display: flex;
+    flex-flow: wrap;
     cursor: pointer;
     width: 100px;
     height: 100px;
@@ -27,19 +29,23 @@
 }
 
 
-.star5 ~ label:hover,
-.star5 + label:hover ~ label,
-.star4 + label:hover ~ label,
-.star3 + label:hover ~ label,
-.star2 + label:hover ~ label,
-.star1 + label:hover ~ label,
-.star1 ~ label:hover
+/*Try embedding .star5~label:focus-within*/
+.star5:hover,
+.star5:hover ~ label,
+.star4:hover ~ label,
+.star3:hover ~ label,
+.star2:hover ~ label,
+.star1:hover ~ label,
+.star2:hover,
+.star3:hover,
+.star4:hover,
+.star1:hover
 {
     background-size: 350px;
     background-repeat: no-repeat;
     background-position: 30px 20px;
-    transition: 1s ease-in-out .5s;
-}       
+    transition: 1s ease-in-out 50ms;
+} 
 
 .star5:checked ~ label,
 .star4:checked ~ label,
