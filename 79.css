@@ -19,18 +19,36 @@
     
 }
 
-@media (max-width: 700px){
+@media (max-width: 1000px){
     .parent{
         display: grid;
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(2, auto);
         grid-gap: 0.2rem;
         column-gap: 0.2rem;
     }
     
     .grid{
         background-color: grey;
-        height: 4rem;
-        width: 4rem;
+        height: 8rem;
+        width: 8rem;
+        color: white;
+        margin: 0;
+        
+    }
+}
+
+@media (max-width: 600px){
+    .parent{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-gap: 0.2rem;
+        column-gap: 0.2rem;
+    }
+    
+    .grid{
+        background-color: grey;
+        height: 6rem;
+        width: 6rem;
         color: white;
         margin: 0;
         
