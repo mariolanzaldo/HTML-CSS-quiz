@@ -10,8 +10,8 @@ body{
     background: gray;
 }
 
-header {
-    position: fixed;
+.container {
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -25,28 +25,28 @@ header {
 }
 
 .navbar ul{
-    display: none;
+    /*display: none;*/
     list-style: none;
 }
 
-header .navbar ul li{
-    position: relative;
+.container .navbar ul li{
+    position:relative;
     float: left;
 }
 
-header .navbar ul li a{
+.container .navbar ul li a{
     font-size: 20px;
     padding: 20px;
     color: whitesmoke;
     display: block;
 }
 
-header .navbar ul li a:hover{
+.container .navbar ul li a:hover{
     background: #594f8d;
     color: whitesmoke;
 }
 
-header .navbar ul li ul{
+.container .navbar ul li ul{
     position: absolute;
     left: 0;
     width: 200px;
@@ -54,126 +54,59 @@ header .navbar ul li ul{
     display: none;
 }
 
-header .navbar ul li ul li{
+.container .navbar ul li ul li{
     width: 100%;
     border: 1px solid whitesmoke;
 }
 
-header .navbar ul li ul li ul{
+.container .navbar ul li ul li ul{
     left: 200px;
     top: 0;
 }
 
-header .navbar ul li:hover > ul, 
-header .navbar ul li:focus-within > ul{
+.container .navbar ul li:hover > ul, 
+.container .navbar ul li:focus-within > ul{
     display: initial;
 }
 
-.topbar:checked + ul {
-display: block;
-}
-
-/*Right bar*/
-.nav ul{
-    display: none;
-    list-style: none;
-}
-
-header .nav ul li{
-    display: flex;
-    position: relative;
-}
-
-header .nav ul li a{
-    font-size: 20px;
-    padding: 20px;
-    color: whitesmoke;
-    display: block;
-}
-
-header .nav ul li a:hover{
-    background: #594f8d;
-    color: whitesmoke;
-}
-
-header .nav ul li ul{
-    position: absolute;
-    left: -210px;
+.leftbar:checked ~ .container,
+.leftbar:checked ~ .container .navbar ul 
+{
+    left: -100px;
     width: 200px;
-    background: #4b4276;
-    display: none;
+    height: auto;
 }
 
-header .nav ul li ul li{
-    width: 100%;
-    border: 1px solid whitesmoke;
+.leftbar:checked ~ .container .navbar ul li ul
+{
+    left: 100px;
+    top: -5px;
 }
 
-header .nav ul li ul li ul{
-    left: -210px;
-    top: 0;
+.leftbar:checked ~ .container .navbar ul li ul li ul
+{
+    left: 200px;
+    top: -2px;
 }
 
-header .nav ul li:hover > ul, 
-header .nav ul li:focus-within > ul{
-    display: initial;
-}
-
-.rightbar:checked + ul {
-display: block;
-}
-
-/*Left navbar*/
-.na ul{
-    display: none;
-    list-style: none;
-}
-
-header .na ul li{
-    display: flex;
-    position: relative;
-}
-
-header .na ul li a{
-    font-size: 20px;
-    padding: 20px;
-    color: whitesmoke;
-    display: block;
-}
-
-header .na ul li a:hover{
-    background: #594f8d;
-    color: whitesmoke;
-}
-
-header .na ul li ul{
-    position: absolute;
-    left: 150px;
+.rightbar:checked ~ .container
+{
+    left: 85.5%;
     width: 200px;
-    background: #4b4276;
-    display: none;
+    height: auto;
 }
 
-header .na ul li ul li{
-    width: 100%;
-    border: 1px solid whitesmoke;
+.rightbar:checked ~ .container .navbar ul
+{
+    position: absolute;
+    background-color: #4b4276;
+    width:160px;
+    
 }
 
-header .na ul li ul li ul{
-    left: 215px;
-    top: 0;
-}
-
-header .na ul li:hover > ul, 
-header .na ul li:focus-within > ul{
-    display: initial;
-}
-
-.leftbar{
- position: relative;
- left: 0;   
-}
-
-.leftbar:checked + ul {
-display: block;
+.rightbar:checked ~ .container .navbar ul li ul,
+.rightbar:checked ~ .container .navbar ul li ul li ul
+{
+    left: -160px;
+    top: -2px;
 }
