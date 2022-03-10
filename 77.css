@@ -70,34 +70,29 @@ body{
 }
 
 .leftbar:checked ~ .container,
-.leftbar:checked ~ .container .navbar ul 
-{
+.leftbar:checked ~ .container .navbar ul {
     left: -100px;
     width: 200px;
     height: auto;
 }
 
-.leftbar:checked ~ .container .navbar ul li ul
-{
+.leftbar:checked ~ .container .navbar ul li ul {
     left: 100px;
     top: -5px;
 }
 
-.leftbar:checked ~ .container .navbar ul li ul li ul
-{
+.leftbar:checked ~ .container .navbar ul li ul li ul {
     left: 200px;
     top: -2px;
 }
 
-.rightbar:checked ~ .container
-{
+.rightbar:checked ~ .container {
     left: 85.5%;
     width: 200px;
     height: auto;
 }
 
-.rightbar:checked ~ .container .navbar ul
-{
+.rightbar:checked ~ .container .navbar ul {
     position: absolute;
     background-color: #4b4276;
     width:160px;
@@ -105,8 +100,42 @@ body{
 }
 
 .rightbar:checked ~ .container .navbar ul li ul,
-.rightbar:checked ~ .container .navbar ul li ul li ul
-{
+.rightbar:checked ~ .container .navbar ul li ul li ul {
     left: -160px;
     top: -2px;
+}
+
+h1{
+    position: relative;
+    display: block; 
+    text-align: center;
+    padding-top: 5px;
+    color: whitesmoke;
+    height: 50px;
+    width: 50%;
+    margin: 20px 0 0 400px;
+    background-color: rgb(50, 50, 143);
+    box-shadow: 0 20px 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+
+h2{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    top: 160px;
+    width: 50%;
+    left: 580px;
+}
+
+.rightbar ~ label,
+.topbar ~ label,
+.leftbar ~ label, 
+input {
+    position: relative;
+    display: inline-flex;
+    color: black;
+    margin: 5px;
+    top:180px;
+    left: 605px;
 }
