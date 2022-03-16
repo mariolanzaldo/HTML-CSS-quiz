@@ -69,25 +69,39 @@ body{
     display: initial;
 }
 
-.leftbar:checked ~ .container,
-.leftbar:checked ~ .container .navbar ul {
-    left: -100px;
+.leftbar:checked ~ .container{
+    left: -50px;
     width: 200px;
+    align-self: center;
     height: auto;
 }
 
-.leftbar:checked ~ .container .navbar ul li ul {
-    left: 100px;
+.leftbar:checked ~ .container .navbar ul li {
+    left: -47px;
+    width: 150px;
+    height: auto;
+}
+
+
+.leftbar:checked ~ .container .navbar ul li ul
+ {
+    width: 160px;
+    left: 150px;
     top: -5px;
 }
 
+.leftbar:checked ~ .container .navbar ul li ul > li{
+    width: 160px;
+    transform: translate(30%, 0%);
+}
+
 .leftbar:checked ~ .container .navbar ul li ul li ul {
-    left: 200px;
+    left: 159px;
     top: -2px;
 }
 
 .rightbar:checked ~ .container {
-    left: 85.5%;
+    left: 83.5%;
     width: 200px;
     height: auto;
 }
@@ -95,13 +109,19 @@ body{
 .rightbar:checked ~ .container .navbar ul {
     position: absolute;
     background-color: #4b4276;
-    width:160px;
-    
+    width:170px;
+}
+
+
+.rightbar:checked ~ .container .navbar ul li a:hover{
+    background: #594f8d;
+    color: whitesmoke;
+    width:168px;
 }
 
 .rightbar:checked ~ .container .navbar ul li ul,
 .rightbar:checked ~ .container .navbar ul li ul li ul {
-    left: -160px;
+    left: -172px;
     top: -2px;
 }
 
